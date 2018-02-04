@@ -1,0 +1,39 @@
+html, body{
+    margin: 0;
+    padding: 0;
+}
+.main-container{
+    width: 80%;
+    max-width: 1080px;
+    margin: 10px auto;
+}
+.header-container{
+/*    font-family: 'Rubik Mono One', sans-serif;*/
+    font-family: 'Graduate', cursive;
+}
+h1{
+    text-align: center;
+}
+.text-container{
+    text-align: center;
+    font-size: 100px;
+    font-family: 'Rubik Mono One', sans-serif
+}
+
+.button-container{
+    text-align: center;
+    width: 100%;
+}
+button{
+    width: 37.5%;
+    padding: 20px 0;
+    font-size: 40px;
+    font-family: 'Sedgwick Ave', cursive;
+}
+.vid-container{
+  text-align:center;
+  width:100%;
+}
+iframe{
+  width: 640px;
+}
