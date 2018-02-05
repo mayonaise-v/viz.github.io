@@ -2,6 +2,34 @@ html, body{
     margin: 0;
     padding: 0;
 }
+html{
+    background: url(backg.png) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+/*
+img.bg {
+  min-height: 100%;
+  min-width: 1024px;
+	
+  width: 100%;
+  height: auto;
+	
+  position: fixed
+  top: 0;
+  left: 0;
+}*/
+/*
+@media screen and (max-width: 2560px) { 
+  img.bg {
+    left: 50%;
+    margin-left: -720px;  
+  }
+}*/
+
 .main-container{
     width: 80%;
     max-width: 1080px;
@@ -14,21 +42,83 @@ html, body{
 h1{
     text-align: center;
 }
+
+.shanty{
+    /*margin-bottom: 0px;*/
+    width: 600px;
+    height: auto;
+    position: absolute;
+    top: 60%;
+    left: 35%;
+}
+.shanty img{
+    width: 75%;
+    height: auto;
+}
 .text-container{
     text-align: center;
     font-size: 100px;
     font-family: 'Rubik Mono One', sans-serif
 }
 
-.button-container{
+/*.button-container{
     text-align: center;
     width: 100%;
+}*/
+
+
+/*.chip-packet-1{
+    width: 500px;
+    height: auto;
+    position: absolute;
+    top: 10%;
+    left: 5%;
 }
+
+.chips-packet-1 input{
+    width: 25%;
+    height: auto;
+}*/
+
+.bts-button{
+    width: 25%;
+    text-align: center;
+    position: absolute;
+    top: 10%;
+    left: 5%;
+    
+}
+.int-button{
+    width: 25%;
+    text-align: center;
+    position: absolute;
+    top: 10%;
+    left: 70%;
+    
+}
+.instr-button{
+    width: 25%;
+    text-align: center;
+    position: absolute;
+    top: 70%;
+    left: 5%;
+    
+}
+.nutr-button{
+    width: 25%;
+    text-align: center;
+    position: absolute;
+    top: 70%;
+    left: 70%;
+    
+}
+
 button{
-    width: 37.5%;
-    padding: 20px 0;
-    font-size: 40px;
-    font-family: 'Sedgwick Ave', cursive;
+    width: 50%;
+    padding: 20px 20px;
+    font-size: 30px;
+    font-family: 'Poiret One', cursive;
+    background-color: crimson;
 }
 .vid-container{
   text-align:center;
@@ -37,3 +127,4 @@ button{
 iframe{
   width: 640px;
 }
+
